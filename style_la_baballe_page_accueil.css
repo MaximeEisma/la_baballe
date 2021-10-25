@@ -36,5 +36,55 @@
 
 .imgballon {
     background-color: aquamarine;
-    Padding 30px/* ajuster en fonction de la taille des images */
+    Padding: 30px;
+    /* ajuster en fonction de la taille des images */
 }
+
+.tout {
+    background-color: rgb(248, 229, 177);
+    margin: 3px 1% 10% 5%;
+}
+
+
+/*Début header*/
+
+header {
+    background-color: rgb(255, 251, 239);
+    padding: 5%
+}
+
+header .retouracceuil {
+    background-color: black;
+}
+
+div.bare ul {
+    background-color: aqua;
+    display: flex;
+    list-style-type: none;
+    margin: 0%;
+}
+
+nav.blocs,
+nav.Titre,
+nav.shoppingkart {
+    font-size: 1rem;
+    padding: 1px 1px;
+    text-align: left;
+    border-radius: 9px;
+    justify-content: center;
+    margin: 10px 0px 10px 0px;
+    padding: 0% 4px 0% 4px;
+    margin-top: 11px;
+    background-color: lightcyan;
+}
+
+nav.Titre {
+    margin-right: 700px;
+}
+
+nav.blocs {
+    margin-right: 10px;
+}
+
+
+/*fin headder*/
